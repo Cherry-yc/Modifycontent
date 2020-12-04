@@ -1,0 +1,25 @@
+{
+  "name": "ebrook/modifycontent",
+  "description": "A Magento 2 module that modifies content of a product page",
+  "type": "magento2-module",
+  "require": {
+    "php": "~7.3.0||~7.4.0"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name":"cherry",
+      "email": "cherry.yang@ebrook.com.tw"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Ebrook\\Modifycontent\\": ""
+    }
+  }
+
+}
